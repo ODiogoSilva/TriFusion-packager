@@ -3,12 +3,11 @@ Section: science
 Priority: optional
 Maintainer: odiogosilva <odiogosilva@gmail.com>
 Build-Depends: debhelper (>=9.0.0~), dh-python, cdbs (>= 0.4.49), python-all-dev, python-setuptools
-XS-Python-Version: >=2.7
+X-Python-Version: >=2.7
 Standards-Version: 3.9.5.0
 
 Package: trifusion
-XB-Python-Version: python2.7
-Architecture: amd64
+Architecture: any
 Homepage: https://github.com/ODiogoSilva/TriFusion
 Depends: ${misc:Depends}, ${python:Depends}, python-configparser, python-matplotlib, python-numpy, python-psutil, python-scipy, python-kivy, python-seaborn
 Description: Streamlining phylogenomic data gathering, processing and visualization
