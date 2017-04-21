@@ -9,5 +9,5 @@ Standards-Version: 3.9.5.0
 Package: trifusion
 Architecture: any
 Homepage: https://github.com/ODiogoSilva/TriFusion
-Depends: ${misc:Depends}, ${python:Depends}, python-configparser, python-matplotlib, python-numpy, python-psutil, python-scipy, python-kivy, python-seaborn, python-progressbar
+Depends: ${misc:Depends}, ${python:Depends}, python-configparser, python-matplotlib, python-numpy, python-psutil, python-scipy, python-kivy, python-seaborn, python-progressbar, python-pandas
 Description: Streamlining phylogenomic data gathering, processing and visualization
