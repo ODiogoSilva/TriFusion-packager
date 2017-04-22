@@ -6,9 +6,5 @@ DEB_PYTHON2_MODULE_PACKAGES := trifusion
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/python-distutils.mk
 
-override_dh_auto_install:
-	dh_auto_install;
-	python setup.py install --root=$(CURDIR)/debian/$(DEB_SOURCE) --install-layout=deb;
-
 override_dh_shlibdeps:
 	@echo "Skipping dh_shlibdeps"
